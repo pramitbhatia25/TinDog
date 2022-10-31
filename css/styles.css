@@ -1,0 +1,173 @@
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+  font-weight: 900;
+}
+
+#title {
+  text-align: left;
+  background-color: #ff4c68;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Background-Colors */
+
+.red-back{
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-back{
+  background-color: white;
+  color: black;
+}
+
+/* Navbar Styling */
+
+.navbar {
+  padding: 0 0 4.5em;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+
+#title .container-fluid {
+  padding: 3% 7% 15%;
+}
+/* Download Buttons */
+
+.downloadbutton {
+  margin: 5% 3% 5% 0;
+}
+
+/* Phone Image */
+
+.phone {
+  position: absolute;
+  width: 60%;
+  transform: rotate(25deg);
+  right: 30%;
+}
+
+@media (max-width: 1028px) {
+  .phone {
+    position: relative;
+    transform: rotate(0);
+    right: 0%;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Middle Row */
+
+.featimage {
+  color: #ef8172;
+  size: 10px;
+  margin-bottom: 30px;
+}
+
+.featimage:hover {
+  color: #ff4c68;
+  size: 10px;
+}
+
+.feature {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+#features {
+  position: relative;
+}
+
+.col-lg-4 {
+  padding: 5%;
+}
+
+/* Carousel */
+
+.testimonial-text {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#testimonials {
+  background-color: #ef8172;
+  color: #ffff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing {
+  padding-top: 100px;
+}
+
+div.ctac h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+  color: white;
+}
+
+/* Footer */
+
+
+.f {
+  margin: 20px;
+}
